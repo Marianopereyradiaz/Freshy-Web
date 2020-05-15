@@ -1,0 +1,36 @@
+
+
+.header {
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 0em;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.header .card-header {
+    opacity: 0.9;
+    background-color: white;   
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0mm;
+    position: relative;
+    z-index: -1;
+    max-height: 500 px;
+}
+
+.header .card-body {   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0mm;
+    height: 200px;
+    background-image: url("https://img.culturacolectiva.com/featured/2018/05/30/1527714218824/alimentos-menos-nutritivos-high.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 200 px;
+    
+}
