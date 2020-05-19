@@ -8,45 +8,36 @@
     background-size: cover;
     position: relative;
     z-index: 3;
+    background-color: rgb(255, 255, 255, 0.8);
     }
 
 .header .navbar {
-  background-color: white;
-  opacity: 0.9;
+  background-color: rgb(254, 254, 255, 0.8);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: -4px;
+  color: #000000;
+  font-weight: 700;
 }
 
-.header .navbar-brand {
-  color: darkgrey;
-  font-size: x-large;
-  opacity: 0.9; 
-  font-family: "Comic Sans MS",  sans-serif;
-}
-.header .nav-item {
-  color:  darkgrey;
-  font-size: large;
-
-  opacity:0.9;
-  font-family: "Comic Sans MS", sans-serif;
-}
 
 .header .nav-link {
   color: black;
   font-size: large;
-  opacity: 0.9;
-  font-family: "Comic Sans MS", sans-serif;
+
 }
 
 .header .dropdown-item {
   color: black;
   font-size: large;
-  opacity: 1;
-  font-family: "Comic Sans MS", sans-serif;
+
 }
 
 .dropdown-menu{
   background-color: yellowgreen;
   opacity: 1;
   background-position: top;
-  font-family: "Comic Sans MS",  sans-serif;
+
 }
 

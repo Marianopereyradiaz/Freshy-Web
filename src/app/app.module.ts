@@ -10,6 +10,8 @@ import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { ProductosComponent } from './productos/productos.component';
 import { FooterComponent } from './footer/footer.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { PedidosComponent } from './pedidos/pedidos.component';
 
 
 
@@ -18,7 +20,7 @@ const router: Routes = [
     path: '',
     component: HomeComponent
   }
-]; 
+];
 
 @NgModule({
   declarations: [
@@ -27,16 +29,17 @@ const router: Routes = [
     QuienesSomosComponent,
     ProductosComponent,
     FooterComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    ContactoComponent,
+    PedidosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(router), 
-    
+    RouterModule.forRoot(router)
   ],
   entryComponents: [],
   providers: [],
-  bootstrap: [AppComponent, HomeComponent, FooterComponent] 
+  bootstrap: [AppComponent, HomeComponent, FooterComponent]
 })
 export class AppModule { }

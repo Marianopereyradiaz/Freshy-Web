@@ -1,0 +1,38 @@
+.container{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: -1;
+  background-color: rgb(250, 242, 242, 0.8);
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 8px 1px black;
+  width: 95%;
+}
+
+.text-container {
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 175%;
+letter-spacing: 12.5%;
+word-spacing: -25%;
+color: #000000;
+font-weight: 700;
+box-sizing: content-box;
+position: relative;
+z-index: -1;
+width: 95%;
+text-align: center;
+}
+
+.li {
+  font-size: calc(1em + 1vw);
+letter-spacing: 12.5%;
+word-spacing: -25%;
+color: #000000;
+font-weight: 700;
+position: relative;
+z-index: -1;
+margin-left: auto;
+margin-right: auto;
+}
