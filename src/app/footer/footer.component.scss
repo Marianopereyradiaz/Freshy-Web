@@ -1,4 +1,10 @@
 
+
+@font-face {
+  font-family: "Gotham Rounded Bold";
+  src: ("assets\Descargas\Gotham-Rounded-Bold.woff");
+}
+
 .footer-text {
     text-align: center;
     margin-top: 20px;
@@ -6,6 +12,7 @@
     margin-right: auto;
     border: 0em;
     text-align: center;
+    font-family: "Gotham Rounded Bold";
 
 }
 
@@ -17,13 +24,12 @@
     text-decoration: none;
     margin: 5px 5px;
     border-radius: 50%;
-    border: 1px solid black;
     box-shadow: 0px 0px 1px  black;
   }
 
 
   .fa-facebook {
-    background: #3B5998;
+    background: #3b5998;
     color: white;
 
   }
@@ -33,8 +39,8 @@
     color: white;
   }
 
-  .fa-twitter {
-    background: #55ACEE;
+  .fa-whatsapp {
+    background: #4FCE5D;
     color: white;
   }
 

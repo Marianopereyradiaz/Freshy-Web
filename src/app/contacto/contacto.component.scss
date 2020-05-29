@@ -1,3 +1,8 @@
+
+@font-face {
+  font-family: "Gotham Rounded Bold";
+  src: ("assets\Descargas\Gotham-Rounded-Bold.woff");
+}
 .container{
   margin-top: 20px;
   margin-left: auto;
@@ -9,15 +14,11 @@
   text-align: center;
   box-shadow: 0px 0px 8px 1px black;
   width: 95%;
+  font-family: "Gotham Rounded Bold";
 }
 
 .text-container {
-font-family: "Trebuchet MS", Helvetica, sans-serif;
-font-size: 175%;
-letter-spacing: 12.5%;
-word-spacing: -25%;
-color: #000000;
-font-weight: 700;
+
 box-sizing: content-box;
 position: relative;
 z-index: -1;
@@ -35,4 +36,39 @@ position: relative;
 z-index: -1;
 margin-left: auto;
 margin-right: auto;
+}
+
+.h4 {
+  font-family: "Gotham Rounded Bold";
+}
+
+.fa{
+  font-size: 200%;
+}
+
+.fa-map-marker {
+  color: rgb(219, 68,55);
+}
+.fa-phone{
+  color: rgb(15, 157, 15);
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-whatsapp {
+  color: #4FCE5D;
+}
+
+.fa-envelope {
+color: rgb(145, 144, 241);
 }
