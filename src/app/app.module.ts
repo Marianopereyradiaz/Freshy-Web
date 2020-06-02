@@ -16,6 +16,8 @@ import { PromocionesComponent } from './promociones/promociones.component';
 import { FrutasverdurasComponent } from './frutasverduras/frutasverduras.component';
 import { OrganicoComponent } from './organico/organico.component';
 import { FrutassecasComponent } from './frutassecas/frutassecas.component';
+import { PanificadosComponent } from './panificados/panificados.component';
+import { CongeladosComponent } from './congelados/congelados.component';
 
 
 
@@ -39,7 +41,9 @@ const router: Routes = [
     PromocionesComponent,
     FrutasverdurasComponent,
     OrganicoComponent,
-    FrutassecasComponent
+    FrutassecasComponent,
+    PanificadosComponent,
+    CongeladosComponent
   ],
   imports: [
     BrowserModule,

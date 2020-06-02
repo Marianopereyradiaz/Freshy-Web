@@ -11,6 +11,9 @@ import { PromocionesComponent } from './promociones/promociones.component';
 import { FrutasverdurasComponent } from './frutasverduras/frutasverduras.component';
 import { OrganicoComponent} from './organico/organico.component';
 import { FrutassecasComponent } from './frutassecas/frutassecas.component';
+import { PanificadosComponent } from './panificados/panificados.component';
+import { CongeladosComponent } from './congelados/congelados.component';
+
 const routes: Routes = [
   {
     path: 'quienes-somos',
@@ -23,6 +26,14 @@ const routes: Routes = [
   {
     path: 'frutasverduras',
     component: FrutasverdurasComponent
+  },
+  {
+    path: 'congelados',
+    component: CongeladosComponent
+  },
+  {
+    path: 'panificados',
+    component: PanificadosComponent
   },
   {
     path: 'frutassecas',
