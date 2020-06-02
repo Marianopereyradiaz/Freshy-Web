@@ -1,5 +1,4 @@
 
-
 @font-face {
   font-family: "Gotham Rounded Bold";
   src: ("assets\Descargas\Gotham-Rounded-Bold.woff");
@@ -12,18 +11,18 @@
   text-align: center;
   z-index: -1;
   background-color: rgb(250, 242, 242, 0.8);
-  padding: 20px;
+  padding: 2.5%;
   font-family: "Gotham Rounded Bold";
 }
 
-.card {
-opacity: 1;
-z-index: 0;
-box-shadow: 0px 0px 8px 1px black;
-}
 
 .btn {
   color: black;
   border-color: lightgray;
   background-color: rgb(197,232,108);
+}
+
+.tr {
+  border-color: rgb(197,232,108);
+  border: solid;
 }

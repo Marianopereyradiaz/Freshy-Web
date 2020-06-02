@@ -12,6 +12,10 @@ import { FooterComponent } from './footer/footer.component';
 import { GaleriaComponent } from './galeria/galeria.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
+import { PromocionesComponent } from './promociones/promociones.component';
+import { FrutasverdurasComponent } from './frutasverduras/frutasverduras.component';
+import { OrganicoComponent } from './organico/organico.component';
+import { FrutassecasComponent } from './frutassecas/frutassecas.component';
 
 
 
@@ -31,7 +35,11 @@ const router: Routes = [
     FooterComponent,
     GaleriaComponent,
     ContactoComponent,
-    PedidosComponent
+    PedidosComponent,
+    PromocionesComponent,
+    FrutasverdurasComponent,
+    OrganicoComponent,
+    FrutassecasComponent
   ],
   imports: [
     BrowserModule,

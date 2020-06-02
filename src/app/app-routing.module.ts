@@ -7,14 +7,30 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ContactoComponent } from './contacto/contacto.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
-
-
-
-
+import { PromocionesComponent } from './promociones/promociones.component';
+import { FrutasverdurasComponent } from './frutasverduras/frutasverduras.component';
+import { OrganicoComponent} from './organico/organico.component';
+import { FrutassecasComponent } from './frutassecas/frutassecas.component';
 const routes: Routes = [
   {
     path: 'quienes-somos',
     component: QuienesSomosComponent
+  },
+  {
+    path: 'promociones',
+    component: PromocionesComponent
+  },
+  {
+    path: 'frutasverduras',
+    component: FrutasverdurasComponent
+  },
+  {
+    path: 'frutassecas',
+    component: FrutassecasComponent
+  },
+  {
+    path: 'organico',
+    component: OrganicoComponent
   },
   {
     path: '',
