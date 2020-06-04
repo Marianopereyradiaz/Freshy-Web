@@ -13,7 +13,7 @@ import { OrganicoComponent} from './organico/organico.component';
 import { FrutassecasComponent } from './frutassecas/frutassecas.component';
 import { PanificadosComponent } from './panificados/panificados.component';
 import { CongeladosComponent } from './congelados/congelados.component';
-
+import { AlmacenComponent } from './almacen/almacen.component';
 const routes: Routes = [
   {
     path: 'quienes-somos',
@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: 'frutasverduras',
     component: FrutasverdurasComponent
+  },
+  {
+    path: 'almacen',
+    component: AlmacenComponent
   },
   {
     path: 'congelados',
