@@ -14,6 +14,8 @@ import { FrutassecasComponent } from './frutassecas/frutassecas.component';
 import { PanificadosComponent } from './panificados/panificados.component';
 import { CongeladosComponent } from './congelados/congelados.component';
 import { AlmacenComponent } from './almacen/almacen.component';
+import { LacteosComponent } from './lacteos/lacteos.component';
+
 const routes: Routes = [
   {
     path: 'quienes-somos',
@@ -34,6 +36,10 @@ const routes: Routes = [
   {
     path: 'congelados',
     component: CongeladosComponent
+  },
+  {
+    path: 'lacteos',
+    component: LacteosComponent
   },
   {
     path: 'panificados',
