@@ -20,6 +20,7 @@ import { PanificadosComponent } from './panificados/panificados.component';
 import { CongeladosComponent } from './congelados/congelados.component';
 import { AlmacenComponent } from './almacen/almacen.component';
 import { LacteosComponent } from './lacteos/lacteos.component';
+import { CafeteriaComponent } from './cafeteria/cafeteria.component';
 
 
 
@@ -47,7 +48,8 @@ const router: Routes = [
     PanificadosComponent,
     CongeladosComponent,
     AlmacenComponent,
-    LacteosComponent
+    LacteosComponent,
+    CafeteriaComponent
   ],
   imports: [
     BrowserModule,

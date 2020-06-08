@@ -9,8 +9,8 @@
     margin-right: auto;
     position: relative;
     z-index: -1;
-    background-color: rgb(250, 242, 242, 0.8);
-    padding: 20px;
+    background-color:rgb(254, 254, 255, 0.8);
+    padding: 30px;
     text-align: center;
     box-shadow: 0px 0px 8px 1px black;
 }
@@ -18,8 +18,14 @@
 .text-container {
   font-family: "Gotham Rounded Bold";
   box-sizing: content-box;
-  padding: 20px;
-
+  padding: 30px;
+  background-color: rgb(197,232,108, 0.8);
 }
 
+.btn {
+  background-color: rgb(197,232,108);
+  font-family: "Gotham Rounded Bold";
+  color: black;
+  border-color: lightgray;
+}
 

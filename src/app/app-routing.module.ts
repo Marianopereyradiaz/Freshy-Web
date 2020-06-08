@@ -15,6 +15,7 @@ import { PanificadosComponent } from './panificados/panificados.component';
 import { CongeladosComponent } from './congelados/congelados.component';
 import { AlmacenComponent } from './almacen/almacen.component';
 import { LacteosComponent } from './lacteos/lacteos.component';
+import { CafeteriaComponent} from './cafeteria/cafeteria.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'frutasverduras',
     component: FrutasverdurasComponent
+  },
+  {
+    path: 'cafeteria',
+    component: CafeteriaComponent
   },
   {
     path: 'almacen',
